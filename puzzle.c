@@ -62,9 +62,9 @@ void main()
        if(m==0)
         break;
        else if(m==8)
-        ++an;
-       else if(m==2)
         --an;
+       else if(m==2)
+        ++an;
        else if(m==4)
         ++bn;
        else if(m==6)
