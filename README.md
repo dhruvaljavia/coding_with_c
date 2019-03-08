@@ -17,4 +17,9 @@ with automation which can monitor environmental parameters such as temperature, 
 **Grain protection system description**
  
  On the whole, the protection system mainly consists of a microprocessor(ARDUINO UNO), a communication module(Bluetooth module),various types of sensors(rain, humidity, temperature and moisture) and protection mechanism.
-The microprocessor is linked with Bluetooth module for sending status updates to the manager. The manager will receive updates from the Bluetooth module through a mobile application. There are future plans to extend the communication range by replacing the Bluetooth module with a GSM module. The manager can set the limits of environmental parameters manually to get warnings on the mobile application. The sensors are directly connected to ARDUINO board through jumper wires. The protection mechanism consists of two servo motors
+The microprocessor is linked with Bluetooth module for sending status updates to the manager. The manager will receive updates from the Bluetooth module through a mobile application. There are future plans to extend the communication range by replacing the Bluetooth module with a GSM module. The manager can set the limits of environmental parameters manually to get warnings on the mobile application. The sensors are directly connected to ARDUINO board through jumper wires. The protection mechanism consists of two servo motors.
+
+Working mechanism of the system
+Data of various parameters; namely temperature, humidity and rainfall, will be collected chiefly by the sensors. 
+The working of rain sensor is based on 
+
